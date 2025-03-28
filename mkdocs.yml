@@ -1,8 +1,10 @@
-site_name: My Docs
+site_name: MAS Support
 
 theme:
   name: carbon
   prefix: IBM
 
 nav:
-  test
+  "Home": index.md
+  "use case": usecases.md
+    "Airgap installation": usecases/airgap.md
