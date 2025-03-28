@@ -5,6 +5,9 @@ theme:
   prefix: IBM
 
 nav:
-  "Home": index.md
-  "use case": usecases.md
-    "Airgap installation": usecases/airgap.md
+  - "Home": index.md
+  - "use case":
+    - "usecases": usecases.md
+    - "Airgap install":
+      - "Airgap installation": airgap/airgap.md
+
